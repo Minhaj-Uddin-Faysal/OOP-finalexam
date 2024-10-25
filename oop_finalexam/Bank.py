@@ -111,7 +111,7 @@ class User():
         print(self.account_no) 
     
     def history_show(self):
-        for item in history:
+        for item in self.history:
             print(item)
 
 class Admin:
