@@ -67,7 +67,7 @@ while True:
         a=input('Enter number:')
         if a=='2':
             name=input('Enter Name as password:')
-            email=input('Enter email')
+            email=input('Enter email:')
             bank.add_admin(Admin(name,email))
             print(f'use name for login')
         if a=='1':
